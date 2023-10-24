@@ -1,0 +1,2 @@
+Token = "6942757377:AAHN5bDdde0cWDmHMMTvByFxDmHsWuvl1-o"
+Weather_Api = "269e2cd41a30a1645b91b759ef36a3e7"
