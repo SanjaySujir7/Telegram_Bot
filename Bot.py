@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, filters, ContextTypes, Application,ConversationHandler,CallbackContext
 from random import choice
-from Bot_Token import Token,Weather_Api,Bot_Name
+from Bot_Token import Token,Weather_Api
 from Handle_Response import Response
 from gtts import gTTS
 import qrcode
@@ -21,7 +21,7 @@ GENERATE_PASS = "Generate_Password"
 
 async def Start_Message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
-  await update.message.reply_text("Hello! I am a simple chat bot created by Sanjay. you can chat with me.\ntype /help for more information.")
+    await update.message.reply_text("Hello! I am a simple chat bot created by Sanjay. you can chat with me.\ntype /help for more information.")
   
 
 
@@ -300,7 +300,5 @@ def Main ():
 
     print("bot is live...")
     app.run_polling(poll_interval=10)
-    
-    
 if __name__ == "__main__":
     Main()

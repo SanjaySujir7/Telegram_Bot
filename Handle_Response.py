@@ -31,7 +31,7 @@ Response_Dictionary = {
     "good night" : [
         "Good Night!",
         "Good Night! How can i help you ?",
-        "Good Night noon dear user!"
+        "Good Night dear user!"
     ],
     "good evening" : [
         "Good Evening!",
